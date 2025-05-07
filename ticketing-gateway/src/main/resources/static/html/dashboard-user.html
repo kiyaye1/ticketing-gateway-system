@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Welcome, User!</h2>
+    <button onclick="window.location.href='create-ticket.html'">Create Ticket</button>
+    <button onclick="window.location.href='my-tickets.html'">View My Tickets</button>
+    <button onclick="logout()">Logout</button>
+
+    <script>
+        function logout() {
+            window.location.href = "/logout";
+        }
+    </script>
+</body>
+</html>

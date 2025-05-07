@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Welcome, Admin!</h2>
+    <button onclick="window.location.href='assign-ticket.html'">Assign Tickets</button>
+    <button onclick="window.location.href='resolve-ticket.html'">Resolve Tickets</button>
+    <button onclick="window.location.href='all-history.html'">View Ticket History</button>
+    <button onclick="logout()">Logout</button>
+
+    <script>
+        function logout() {
+            window.location.href = "/logout";
+        }
+    </script>
+</body>
+</html>
+
